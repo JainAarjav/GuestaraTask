@@ -1,21 +1,21 @@
 # GuestaraTask
 
-##Features
+## Features
 Create, retrieve, update, and search for categories, subcategories, and items.
 Flexible relationships between categories, subcategories, and items.
 RESTful APIs for easy integration with any frontend.
 MongoDB is used as the database.
 
-##How to Run Locally 
+## How to Run Locally 
 
-##Prerequisites
+## Prerequisites
 1.Install Node.js (v16 or higher) and npm.
 2.Install MongoDB (or use MongoDB Atlas for a hosted solution).
 3.Clone the repository:
 git clone https://github.com/<your-repo-name>.git
 cd menu-management-backend
 
-##Steps to Run Locally
+## Steps to Run Locally
 
 1.Install dependencies:
     npm install
