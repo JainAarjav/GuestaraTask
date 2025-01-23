@@ -8,12 +8,15 @@ MongoDB is used as the database.
 
 ## How to Run Locally 
 
-## Prerequisites
-1.Install Node.js (v16 or higher) and npm.
-2.Install MongoDB (or use MongoDB Atlas for a hosted solution).
-3.Clone the repository:
-git clone https://github.com/<your-repo-name>.git
-cd menu-management-backend
+
+## **Prerequisites**
+1. Install **Node.js** (v16 or higher) and **npm**.
+2. Install **MongoDB** (or use **MongoDB Atlas** for a hosted solution).
+3. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-repo-name>.git
+   cd menu-management-backend
+
 
 ## Steps to Run Locally
 
@@ -64,6 +67,19 @@ The most challenging part was setting up the correct relationships between categ
 ### **4. What Would You Have Done Differently Given More Time?**
 - Added **unit tests** with Jest to ensure reliability.
 - Implemented **authentication and authorization** to secure the APIs.
+
+## **Technologies Used**
+- **Node.js**: Backend server runtime.
+- **Express.js**: Web framework for handling HTTP requests.
+- **MongoDB**: NoSQL database for data storage.
+- **Mongoose**: ODM library for managing MongoDB models.
+- **Render**: Platform for deploying the backend.
+
+---
+
+## **Deployment**
+The application is deployed on **Render**. You can access it at:  
+[**https://guestaratask.onrender.com**](https://guestaratask.onrender.com)
 
 
 
