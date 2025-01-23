@@ -24,11 +24,17 @@ MongoDB is used as the database.
    Run the following command to install all the required dependencies:
    ```bash
    npm install
-2. **Create a .env file**
-     MONGO_URI=<your-mongodb-connection-string>
-      PORT=5000
-3. **Start the application**
-   npm run dev 
+2. **Create a `.env` file**  
+   Add the following variables to the `.env` file in the root directory:
+   ```env
+   MONGO_URI=<your-mongodb-connection-string>
+   PORT=5000
+
+3. **Start the application**  
+   Run the following command to start the server:
+   ```bash
+   npm run dev
+
 
 
 
