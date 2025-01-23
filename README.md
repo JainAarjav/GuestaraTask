@@ -18,16 +18,19 @@ MongoDB is used as the database.
    cd menu-management-backend
 
 
-## Steps to Run Locally
+## **Steps to Run Locally**
 
-1.Install dependencies:
-    npm install
-2.Create a .env file in the root directory and add the following variables:
-  MONGO_URI=<your-mongodb-connection-string>
-PORT=5000
-3. Start the application
-    npm run dev
-4.Open Postman or any API client and test the application using:
+1. **Install dependencies**  
+   Run the following command to install all the required dependencies:
+   ```bash
+   npm install
+2. **Create a .env file**
+     MONGO_URI=<your-mongodb-connection-string>
+      PORT=5000
+3. **Start the application**
+   npm run dev 
+
+
 
   Base URL: http://localhost:5000
 
